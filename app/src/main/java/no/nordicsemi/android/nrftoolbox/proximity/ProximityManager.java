@@ -34,6 +34,7 @@ import no.nordicsemi.android.ble.BleManager;
 import no.nordicsemi.android.log.Logger;
 import no.nordicsemi.android.nrftoolbox.parser.AlertLevelParser;
 import no.nordicsemi.android.nrftoolbox.utility.DebugLogger;
+import no.nordicsemi.android.ble.Request;
 
 public class ProximityManager extends BleManager<ProximityManagerCallbacks> {
 	private final String TAG = "ProximityManager";

@@ -35,6 +35,7 @@ import java.util.UUID;
 
 import no.nordicsemi.android.ble.BleManager;
 import no.nordicsemi.android.log.Logger;
+import no.nordicsemi.android.ble.Request;
 
 public class UARTManager extends BleManager<UARTManagerCallbacks> {
 	/** Nordic UART Service UUID */
@@ -65,7 +66,8 @@ public class UARTManager extends BleManager<UARTManagerCallbacks> {
 	private final BleManagerGattCallback mGattCallback = new BleManagerGattCallback() {
 
 		@Override
-		protected Deque<Request> initGatt(final BluetoothGatt gatt) {
+		protected
+		Deque<Request> initGatt(final BluetoothGatt gatt) {
 			final LinkedList<Request> requests = new LinkedList<>();
 			requests.add(Request.newEnableNotificationsRequest(mTXCharacteristic));
 			return requests;

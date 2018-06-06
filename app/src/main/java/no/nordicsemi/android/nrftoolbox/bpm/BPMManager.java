@@ -35,6 +35,7 @@ import no.nordicsemi.android.ble.BleManager;
 import no.nordicsemi.android.log.Logger;
 import no.nordicsemi.android.nrftoolbox.parser.BloodPressureMeasurementParser;
 import no.nordicsemi.android.nrftoolbox.parser.IntermediateCuffPressureParser;
+import no.nordicsemi.android.ble.Request;
 
 public class BPMManager extends BleManager<BPMManagerCallbacks> {
 	/** Blood Pressure service UUID */

@@ -34,6 +34,7 @@ import no.nordicsemi.android.ble.BleManager;
 import no.nordicsemi.android.log.Logger;
 import no.nordicsemi.android.nrftoolbox.parser.TemperatureMeasurementParser;
 import no.nordicsemi.android.nrftoolbox.utility.DebugLogger;
+import no.nordicsemi.android.ble.Request;
 
 /**
  * HTSManager class performs BluetoothGatt operations for connection, service discovery, enabling indication and reading characteristics. All operations required to connect to device with BLE HT

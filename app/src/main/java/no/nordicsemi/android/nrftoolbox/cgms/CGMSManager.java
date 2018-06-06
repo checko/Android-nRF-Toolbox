@@ -38,6 +38,7 @@ import no.nordicsemi.android.nrftoolbox.parser.CGMMeasurementParser;
 import no.nordicsemi.android.nrftoolbox.parser.CGMSpecificOpsControlPointParser;
 import no.nordicsemi.android.nrftoolbox.parser.RecordAccessControlPointParser;
 import no.nordicsemi.android.nrftoolbox.utility.DebugLogger;
+import no.nordicsemi.android.ble.Request;
 
 public class CGMSManager extends BleManager<CGMSManagerCallbacks> {
 	private static final String TAG = "CGMSManager";

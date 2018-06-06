@@ -39,6 +39,7 @@ import no.nordicsemi.android.nrftoolbox.parser.GlucoseMeasurementContextParser;
 import no.nordicsemi.android.nrftoolbox.parser.GlucoseMeasurementParser;
 import no.nordicsemi.android.nrftoolbox.parser.RecordAccessControlPointParser;
 import no.nordicsemi.android.nrftoolbox.utility.DebugLogger;
+import no.nordicsemi.android.ble.Request;
 
 @SuppressWarnings("unused")
 public class GlucoseManager extends BleManager<GlucoseManagerCallbacks> {
